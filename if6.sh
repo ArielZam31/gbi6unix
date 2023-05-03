@@ -1,7 +1,8 @@
 #!/bin/bash
 # case example
+
 case $1 in
-    start)
+    Biorecnología)
         echo starting
         ;;
     stop)

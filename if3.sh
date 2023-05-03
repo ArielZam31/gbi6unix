@@ -2,10 +2,10 @@
 # elif statements
 if [ $1 -ge 18 ]
 then
-    echo You may go to the party.
-elif [ $2 == 'yes' ]
+    echo party.
+elif [ $1 -ge 15 ]
 then
-    echo You may go to the party but be back before midnight.
+    echo tienes que ir con tus hermanos.
 else
-    echo You may not go to the party.
+    echo no party.
 fi
